@@ -1,7 +1,7 @@
-const Main = function () {
+const Main = function (props) {
   return (
     <main id="main" role="main">
-      main
+      {props.children}
     </main>
   );
 };
