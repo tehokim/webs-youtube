@@ -2,7 +2,7 @@ const Search = function () {
   return (
     <div id="search">
       <div className="search__inner">
-        <label htmlFor="searchInput">검색</label>
+        <label htmlFor="searchInput"></label>
         <input
           type="search"
           id="searchInput"
