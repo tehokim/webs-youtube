@@ -1,5 +1,7 @@
+import Main from "../components/section/Main";
+
 const Website = function () {
-  return <div>Website</div>;
+  return <Main>Website</Main>;
 };
 
 export default Website;

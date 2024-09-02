@@ -1,5 +1,7 @@
+import Main from "../components/section/Main";
+
 const Channel = function () {
-  return <div>Channel</div>;
+  return <Main>Channel</Main>;
 };
 
 export default Channel;

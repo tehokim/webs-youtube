@@ -1,5 +1,7 @@
+import Main from "../components/section/Main";
+
 const Video = function () {
-  return <div>Video</div>;
+  return <Main>Video</Main>;
 };
 
 export default Video;

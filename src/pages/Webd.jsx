@@ -1,5 +1,7 @@
+import Main from "../components/section/Main";
+
 const Webd = function () {
-  return <div>Webd</div>;
+  return <Main>Webd</Main>;
 };
 
 export default Webd;

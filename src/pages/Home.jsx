@@ -1,5 +1,7 @@
+import Main from "../components/section/Main";
+
 const Home = function () {
-  return <div>Home</div>;
+  return <Main>Home</Main>;
 };
 
 export default Home;

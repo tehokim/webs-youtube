@@ -1,5 +1,7 @@
+import Main from "../components/section/Main";
+
 const Search = function () {
-  return <div>Search</div>;
+  return <Main>Search</Main>;
 };
 
 export default Search;

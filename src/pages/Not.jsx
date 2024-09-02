@@ -1,5 +1,7 @@
+import Main from "../components/section/Main";
+
 const Not = function () {
-  return <div>Not</div>;
+  return <Main>Not</Main>;
 };
 
 export default Not;

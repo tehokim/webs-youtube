@@ -1,5 +1,7 @@
+import Main from "../components/section/Main";
+
 const Youtube = function () {
-  return <div>Youtube</div>;
+  return <Main>Youtube</Main>;
 };
 
 export default Youtube;

@@ -1,5 +1,7 @@
+import Main from "../components/section/Main";
+
 const Gsap = function () {
-  return <div>Gsap</div>;
+  return <Main>Gsap</Main>;
 };
 
 export default Gsap;
