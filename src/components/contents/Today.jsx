@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
+
 import { todayText } from "../../data/today";
 
 const Today = () => {
   const today = todayText[0];
 
   return (
-    <div id="today">
+    <section id="today">
       <div className="today__inner">
-        <div className="today__thumb">
+        <div className="today__thumb play__icon">
           <Link to={today.page}>
             <img src={today.img} alt={today.title} />
           </Link>
@@ -26,7 +27,7 @@ const Today = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
