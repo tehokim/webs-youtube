@@ -1,7 +1,9 @@
 const Footer = function () {
   return (
-    <footer id="Footer" role="contentinfo">
-      footer
+    <footer id="footer" role="contentinfo">
+      <a href="mailto:tehokimgenius@gmail.com" rel="noopener noreferrer">
+        tehokimgenius@gmail.com
+      </a>
     </footer>
   );
 };
