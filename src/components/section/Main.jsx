@@ -3,6 +3,7 @@ import PropType from "prop-types";
 
 import Header from "./Header";
 import Footer from "./Footer";
+import Search from "./Search";
 
 const Main = function (props) {
   return (
@@ -18,6 +19,7 @@ const Main = function (props) {
 
       <Header />
       <main id="main" role="main">
+        <Search />
         {props.children}
       </main>
       <Footer />
@@ -27,7 +29,7 @@ const Main = function (props) {
 
 Main.propTypes = {
   title: PropType.string,
-  description: PropType.string.isRequired,
+  description: PropType.string,
 };
 
 export default Main;
