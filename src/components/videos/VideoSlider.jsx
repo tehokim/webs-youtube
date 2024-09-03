@@ -5,10 +5,21 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import { Navigation } from "swiper/modules";
+import { useEffect, useState } from "react";
 
 const VideoSlider = ({ videos, title, id }) => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
+  }, []);
+
+  let youtubeClass = loading ? "isLoading" : "isLoaded";
+
   return (
-    <section id={id}>
+    <section id={id} className={youtubeClass}>
       <h2>{title}</h2>
       <div className="video__slider">
         <Swiper
